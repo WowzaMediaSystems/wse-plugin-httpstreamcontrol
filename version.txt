@@ -1,2 +1,2 @@
 Build 1
-	Initial build.
+	* Initial build.
