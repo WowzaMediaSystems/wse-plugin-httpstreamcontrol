@@ -42,7 +42,7 @@ curl "http://localhost:8086/streamcontrol?appName=live&action=stopStream&streamN
 ```
 
 ## More resources
-[Wowza Streaming Engine Server-Side API Reference](https://www.wowza.com/resources/WowzaStreamingEngine_ServerSideAPI.pdf)
+[Wowza Streaming Engine Server-Side API Reference](https://www.wowza.com/resources/serverapi/)
 
 [How to extend Wowza Streaming Engine using the Wowza IDE](https://www.wowza.com/docs/how-to-extend-wowza-streaming-engine-using-the-wowza-ide)
 
@@ -57,5 +57,3 @@ To use the compiled version of this module, see [How to control Stream class str
 
 ## License
 This code is distributed under the [Wowza Public License](wse-plugin-httpstreamcontrol/blob/master/LICENSE.txt).
-
-![alt tag](http://wowzalogs.com/stats/githubimage.php?plugin=wse-plugin-httpstreamcontrol)
