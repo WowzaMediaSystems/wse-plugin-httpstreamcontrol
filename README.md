@@ -36,7 +36,7 @@ curl "http://localhost:8086/streamcontrol?appName=live&action=playNextPlaylistIt
 ```
 curl "http://localhost:8086/streamcontrol?appName=live&action=removeItemFromPlaylist&playlistItemName=sample.mp4&streamName=testStream"
 ```
-7. Stop a stream>
+7. Stop a stream:
 ```
 curl "http://localhost:8086/streamcontrol?appName=live&action=stopStream&streamName=testStream"
 ```
