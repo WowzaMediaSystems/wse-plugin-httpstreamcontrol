@@ -1,6 +1,8 @@
 # HTTPStreamControl
 You can use the **HTTPStreamControl** plugin for Wowza Streaming Engine™ [media server software](https://www.wowza.com/products/streaming-engine) to control Stream class streams and playlists through HTTP requests. Use it to dynamically create, set up, and start new live Stream class streams from static and live sources, and to add sources to existing Stream class streams. For extra control, use this HTTP provider with the **StreamPublisher** module.
 
+This repo includes a [compiled version](/lib/wse-plugin-httpstreamcontrol.jar).
+
 ## Prerequisites
 Wowza Streaming Engine™ 4.0.0 or later is required.
 
@@ -42,15 +44,15 @@ curl "http://localhost:8086/streamcontrol?appName=live&action=stopStream&streamN
 ```
 
 ## More resources
+To use the compiled version of this module, see [Control Stream class streams dynamically with a Wowza Streaming Engine Java module](https://www.wowza.com/docs/how-to-control-stream-class-streams-dynamically-httpstreamcontrol).
+
 [Wowza Streaming Engine Server-Side API Reference](https://www.wowza.com/resources/serverapi/)
 
 [How to extend Wowza Streaming Engine using the Wowza IDE](https://www.wowza.com/docs/how-to-extend-wowza-streaming-engine-using-the-wowza-ide)
 
 [How to use server-side modules and HTTP Providers](https://www.wowza.com/docs/how-to-use-wowza-streaming-engine-server-side-modules-and-http-providers)
 
-Wowza Media Systems™ provides developers with a platform to create streaming applications and solutions. See [Wowza Developer Tools](https://www.wowza.com/resources/developers) to learn more about our APIs and SDKs. 
-
-To use the compiled version of this module, see [How to control Stream class streams dynamically (HTTPStreamControl)](https://www.wowza.com/docs/how-to-control-stream-class-streams-dynamically-httpstreamcontrol).
+Wowza Media Systems™ provides developers with a platform to create streaming applications and solutions. See [Wowza Developer Tools](https://www.wowza.com/developer) to learn more about our APIs and SDKs. 
 
 ## Contact
 [Wowza Media Systems, LLC](https://www.wowza.com/contact)
